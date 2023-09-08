@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:src="@drawable/logo"
+                android:layout_centerHorizontal="true"/>
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="SILAHKAN PILIH MENU DI BAWAH INI" />
+
+            <!--BAGIAN1-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:clipToPadding="false" >
+
+                <!--TOMBOL1-->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView1"
+                    android:layout_width="150dp"
+                    android:layout_height="190dp"
+                    android:layout_margin="10dp"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:clickable="true" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:background="#fff">
+                        <ImageView
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:background="@drawable/lingkarpink"
+                            android:padding="10dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/battreihealth_0"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                             android:text="1"
+                            android:layout_marginTop="10dp"/>
+                        <View
+                            android:layout_width="100dp"
+                            android:layout_height="1dp"
+                            android:background="@drawable/lingkaranoldgreen"
+                            android:layout_marginTop="5dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@android:color/darker_gray"
+                            android:padding="5dp"
+                            android:text="Linear Layout"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <!--TOMBOL2-->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView2"
+                    android:layout_width="150dp"
+                    android:layout_height="190dp"
+                    android:layout_margin="10dp"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:clickable="true" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:background="#fff">
+                        <ImageView
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:background="@drawable/lingkaranyellow"
+                            android:padding="10dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/battreihealth_1"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="2"
+                            android:layout_marginTop="10dp"/>
+                        <View
+                            android:layout_width="100dp"
+                            android:layout_height="1dp"
+                            android:background="@drawable/lingkaranoldgreen"
+                            android:layout_marginTop="5dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@android:color/darker_gray"
+                            android:padding="5dp"
+                            android:text="Relative Layout"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <!--BAGIAN2-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:clipToPadding="false" >
+
+                <!--TOMBOL1-->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView3"
+                    android:layout_width="150dp"
+                    android:layout_height="190dp"
+                    android:layout_margin="10dp"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:clickable="true" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:background="#fff">
+                        <ImageView
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:background="@drawable/lingkaranoldgreen"
+                            android:padding="10dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/battreihealth_3"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="3"
+                            android:layout_marginTop="10dp"/>
+                        <View
+                            android:layout_width="100dp"
+                            android:layout_height="1dp"
+                            android:background="@drawable/lingkaranoldgreen"
+                            android:layout_marginTop="5dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@android:color/darker_gray"
+                            android:padding="5dp"
+                            android:text="Constrain Layout"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <!--TOMBOL2-->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView4"
+                    android:layout_width="150dp"
+                    android:layout_height="190dp"
+                    android:layout_margin="10dp"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:clickable="true" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:background="#fff">
+                        <ImageView
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:background="@drawable/lingkarablu"
+                            android:padding="10dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/battreihealth_4"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="4"
+                            android:layout_marginTop="10dp"/>
+                        <View
+                            android:layout_width="100dp"
+                            android:layout_height="1dp"
+                            android:background="@drawable/lingkaranoldgreen"
+                            android:layout_marginTop="5dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@android:color/darker_gray"
+                            android:padding="5dp"
+                            android:text="Frame Layout"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <!--BAGIAN3-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:clipToPadding="false" >
+
+                <!--TOMBOL1-->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView5"
+                    android:layout_width="150dp"
+                    android:layout_height="190dp"
+                    android:layout_margin="10dp"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:clickable="true" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:background="#fff">
+                        <ImageView
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:background="@drawable/lingkaranred"
+                            android:padding="10dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/battreihealth_5"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="5"
+                            android:layout_marginTop="10dp"/>
+                        <View
+                            android:layout_width="100dp"
+                            android:layout_height="1dp"
+                            android:background="@drawable/lingkaranoldgreen"
+                            android:layout_marginTop="5dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@android:color/darker_gray"
+                            android:padding="5dp"
+                            android:text="Table Layout"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <!--TOMBOL2-->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView6"
+                    android:layout_width="150dp"
+                    android:layout_height="190dp"
+                    android:layout_margin="10dp"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:clickable="true" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:background="#fff">
+                        <ImageView
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:background="@drawable/lingkaranhijau"
+                            android:padding="10dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/battreihealth_5"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="6"
+                            android:layout_marginTop="10dp"/>
+                        <View
+                            android:layout_width="100dp"
+                            android:layout_height="1dp"
+                            android:background="@drawable/lingkaranoldgreen"
+                            android:layout_marginTop="5dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@android:color/darker_gray"
+                            android:padding="5dp"
+                            android:text="Material Layout"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <!--BAGIAN4-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:clipToPadding="false" >
+
+                <!--TOMBOL1-->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView7"
+                    android:layout_width="150dp"
+                    android:layout_height="190dp"
+                    android:layout_margin="10dp"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:clickable="true" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:background="#fff">
+                        <ImageView
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:background="@drawable/lingkaranoldblue"
+                            android:padding="10dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/battreihealth_7"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="7"
+                            android:layout_marginTop="10dp"/>
+                        <View
+                            android:layout_width="100dp"
+                            android:layout_height="1dp"
+                            android:background="@drawable/lingkaranoldgreen"
+                            android:layout_marginTop="5dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@android:color/darker_gray"
+                            android:padding="5dp"
+                            android:text="Scroll Horizontal"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <!--TOMBOL2-->
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView8"
+                    android:layout_width="150dp"
+                    android:layout_height="190dp"
+                    android:layout_margin="10dp"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:clickable="true" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:background="#fff">
+                        <ImageView
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:background="@drawable/lingkaranpurple"
+                            android:padding="10dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/battreihealth_8"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:text="8"
+                            android:layout_marginTop="10dp"/>
+                        <View
+                            android:layout_width="100dp"
+                            android:layout_height="1dp"
+                            android:background="@drawable/lingkaranoldgreen"
+                            android:layout_marginTop="5dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:textColor="@android:color/darker_gray"
+                            android:padding="5dp"
+                            android:text="Scroll Vertikal"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
